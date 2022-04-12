@@ -1,21 +1,24 @@
 #include<stdio.h>
 
 int main() {
-    int num1, num2;
+    double num1, num2;
 
-    scanf("%d %d", &num1, &num2);
+    scanf("%lf %lf", &num1, &num2);
 
-    int sum = num1 + num2;
-    printf("%d + %d = %d\n", num1, num2, sum);
+    double sum = num1 + num2;
+    printf("%.2lf + %.2lf = %.2lf\n", num1, num2, sum);
 
-    int biyog = num1 - num2;
-    printf("%d - %d = %d\n", num1, num2, biyog);
+    double biyog = num1 - num2;
+    printf("%.2lf - %.2lf = %.2lf\n", num1, num2, biyog);
 
-    int multiplications = num1 * num2;
-    printf("%d * %d = %d\n", num1, num2, multiplications);
+    double multiplications = num1 * num2;
+    printf("%.2lf * %.2lf = %.2lf\n", num1, num2, multiplications);
 
-    int devide = num1 / num2;
-    printf("%d / %d = %d\n", num1, num2, devide);
-    
+    double devide = num1 / num2;
+    printf("%.2lf / %.2lf = %.2lf\n", num1, num2, devide);
+
+    // int mods = num1 % num2;
+    // printf("%.2lf %% %.2lf = %.d\n", num1, num2, mods);
+
     return 0;
 }
