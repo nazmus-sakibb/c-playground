@@ -2,10 +2,7 @@
 
 int main()
 {
-    int sum = 0;
-while (sum <= 20) {
-	printf("%d\n", sum);
-if (sum < 10) continue;
-	sum+=2;
-}
+    int x = 0;
+    x--;
+    printf("% u", x);
 }
