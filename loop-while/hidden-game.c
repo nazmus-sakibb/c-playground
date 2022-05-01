@@ -6,9 +6,11 @@ int main () {
     srand(time(0));
     int hidden = rand() % 100 + 1;
 
-    printf("%d\n", hidden);
+    // printf("%d\n", hidden);
 
-    while(true) {
+    int number_of_guesses = 0;
+
+    while(number_of_guesses < 15) {
         int guess;
         scanf("%d", &guess);
 
@@ -22,5 +24,12 @@ int main () {
         else {
             printf("Guess little lower!\n");
         }
+        number_of_guesses++;
     }
+
+    if(number_of_guesses == 0) {
+        printf("You have failed!\n");
+    }
+
+    return 0;
 }
