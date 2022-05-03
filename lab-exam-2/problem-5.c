@@ -1,3 +1,5 @@
+// Problem 5 lab exam 2
+
 #include<stdio.h>
 
 int main()
@@ -11,7 +13,6 @@ int main()
 
     t+=(a*b)*(x/(a+c));
     x%=(a+c);
-    ///printf("%d %d\n",t,x);
 
     if(x<a)
         a=x;
@@ -20,7 +21,6 @@ int main()
     aa+=(d*e)*(xx/(d+f));
     xx%=(d+f);
 
-    ///printf("%d %d\n",aa,xx);
 
     if(xx<d)
         d=xx;
