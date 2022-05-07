@@ -1,4 +1,4 @@
-// Problem 1 (A - A - 1)
+// Problem 1 (A - A)
 
 #include <stdio.h>
 
